@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax typescript</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+</head>
+
+<body>
+    <div class="container mt-5 mb-2 ml-auto mr-auto p-2" data-container-main>
+        <h1 class="text-center">Cadastro de usuarios</h1>
+        <form data-form-register method="post" class="form m-2 p-2">
+            <div class="row">
+                <div class="col-md-12">
+                    <label>E-mail</label>
+                    <input type="email" name="email" class="form-control" placeholder="Digite aqui o email de cadastro">
+                </div><br/>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label>Senha</label>
+                    <input type="password" name="password" class="form-control" placeholder="Digite aqui sua senha">
+                </div><br/>
+                <div class="col-md-6">
+                    <label>Novamente</label>
+                    <input type="password" name="password-confirm" class="form-control" placeholder="Digite a senha novamente">
+                </div>
+            </div><br/>
+            <div class="row">
+                <div class="col-md-12">
+                    <button class="btn btn-success">Registrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="dist/index.js"></script>
+<script src="dist/ajax.js"></script>
+<script src="dist/message.js"></script>
+<script src="dist/register.js"></script>
+
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "ajax-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/robsonad18/ajax-typescript.git",
+  "author": "Robson Lucas <64038141+robsonad18@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "commonjs": "^0.0.1",
+    "sweetalert2": "^11.1.8"
+  }
+}
