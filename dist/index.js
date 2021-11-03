@@ -8,7 +8,7 @@ var Index = /** @class */ (function () {
     Index.GetSource = function () {
         var urlCurrent = window.location.href;
         var validate = urlCurrent.indexOf("localhost") > -1;
-        return validate ? 'http://localhost/project/ajax-typescript' : '';
+        return validate ? 'http://localhost/projects/ajax-typescript' : '';
     };
     return Index;
 }());

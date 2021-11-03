@@ -14,9 +14,9 @@ export abstract class Register {
 
       formRegister.addEventListener('submit', (event: Event) => {
          event.preventDefault();
-
+         console.log('entrei aqui')
          const dataSend = {
-            url: Index.GetSource() + '/app/Register',
+            url: Index.GetSource() + '/app/Register.php',
             data: (new FormData(formRegister))
          };
 

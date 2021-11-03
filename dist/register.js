@@ -17,8 +17,9 @@ var Register = /** @class */ (function () {
         var formRegister = document.querySelector('[data-form-register]');
         formRegister.addEventListener('submit', function (event) {
             event.preventDefault();
+            console.log('entrei aqui');
             var dataSend = {
-                url: _1.Index.GetSource() + '/app/Register',
+                url: _1.Index.GetSource() + '/app/Register.php',
                 data: (new FormData(formRegister))
             };
             (new ajax_1.Ajax).Post(dataSend.url, dataSend.data, function (status, response) {
